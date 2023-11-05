@@ -76,6 +76,7 @@ nav a {
 .learn-about .container {
     max-width: 800px;
     margin: 0 auto;
+    margin-bottom: 40px;
 }
 
 /*Test Covid 19*/
@@ -91,6 +92,7 @@ nav a {
     max-width: 40%;
     margin-top: 50px;
     margin-left: 100px;
+    margin-bottom: 40px;
 }
 
 .cta {
@@ -234,4 +236,15 @@ nav ul li a:hover {
     font-size: 21px;
 }
 
+.testing {
+    background-color: #4A5568;
+    color: white;
+}
+
+.testing .btn {
+    background-color: #48BB78;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
 
