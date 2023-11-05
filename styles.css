@@ -20,3 +20,29 @@ nav a {
     text-decoration: none;
 }
 
+/*Overview Hero Here*/
+
+.overview-hero {
+    display: flex;
+    align-items: center;
+}
+
+.overview-hero-image img {
+    width: 300px;
+    height: auto;
+}
+
+.overview-hero-text {
+    margin-left: 20px; /* Add some space between the image and text */
+}
+
+.overview-hero .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px; /* Adjust this value to control the maximum width of the content */
+    margin: 0 auto; /* Center the container */
+}
+
+
+
