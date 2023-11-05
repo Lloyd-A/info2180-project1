@@ -205,3 +205,16 @@ header h1,
 header nav ul li a {
     font-size: 18px;
 }
+
+nav ul li a {
+    color: #6b7280;
+}
+
+nav ul li a:hover {
+    color: #5a67d8;
+}
+
+.overview-hero {
+    background-color: #e2e8f0;
+}
+
