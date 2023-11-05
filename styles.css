@@ -17,6 +17,7 @@ nav li {
 }
 
 nav a {
+    color: #6b7280;
     text-decoration: none;
 }
 
@@ -25,6 +26,7 @@ nav a {
 .overview-hero {
     display: flex;
     align-items: center;
+    background-color: #e2e8f0;
 }
 
 .overview-hero-image img {
@@ -51,6 +53,8 @@ nav a {
 
 .learn-about h2 {
     padding-left: 30px;
+    font-size: 24px;
+    color: #48BB78;
 }
 
 .learn-about .cards {
@@ -61,11 +65,19 @@ nav a {
 
 .learn-about .card {
     text-align: left;
+    border: 1px solid #E2E8F0;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .learn-about .card img {
     width: 300px;
     height: 200px;
+}
+
+.learn-about .card h3 {
+    color: #48BB78;
+    font-size: 21px;
 }
 
 .learn-about .card-body {
@@ -86,6 +98,8 @@ nav a {
     align-items: center;
     justify-content: space-between;
     text-align: left;
+    background-color: #4A5568;
+    color: white;
 }
 
 .testing-desciption {
@@ -102,6 +116,10 @@ nav a {
 .cta .btn {
     margin-left: 320px;
     display: inline-block;
+    background-color: #48BB78;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
 }
 
 .testing .container {
@@ -125,6 +143,7 @@ nav a {
 .stories h2 {
     text-align: left;
     padding-left: 10px;
+    color: #5A67D8;
 }
 
 article {
@@ -143,6 +162,7 @@ article img {
 .article-body h3 {
     margin-top: 0;
     width: 430px;
+    font-size: 18px;
 }
 
 .article-body {
@@ -153,6 +173,15 @@ article img {
 
 .article-body p {
     width: 560px;
+}
+
+.stories a {
+    color: #5A67D8;
+    text-decoration: none;
+}
+
+.stories a:hover {
+    color: #3B429F;
 }
 
 .article-body a {
@@ -171,6 +200,8 @@ article img {
     flex-direction: column;
     align-items: center;
     margin-top: 60px;
+    background-color: #48BB78;
+    color: white;
 }
 
 .newsletter p {
@@ -185,6 +216,7 @@ article img {
     float: left;
     width: 260px;
     height: 40px;
+    margin-bottom: 40px;
 }
 
 .newsletter .btn {
@@ -192,6 +224,8 @@ article img {
     margin-left: 10px;
     height: 45px;
     width: 130px;
+    margin-bottom: 40px;
+    background-color: #5A67D8;
 }
 
 body {
@@ -208,60 +242,20 @@ header nav ul li a {
     font-size: 18px;
 }
 
-nav ul li a {
-    color: #6b7280;
-}
-
 nav ul li a:hover {
     color: #5a67d8;
 }
 
-.overview-hero {
-    background-color: #e2e8f0;
-}
 
-.learn-about h2 {
-    font-size: 24px;
-    color: #48BB78;
-}
 
-.learn-about .card {
-    border: 1px solid #E2E8F0;
-    border-radius: 5px;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-}
 
-.learn-about .card h3 {
-    color: #48BB78;
-    font-size: 21px;
-}
-
-.testing {
+footer {
     background-color: #4A5568;
     color: white;
+    height: 80px;
 }
 
-.testing .btn {
-    background-color: #48BB78;
-    border-radius: 5px;
-    color: white;
-    text-decoration: none;
-}
-
-.stories h2 {
-    color: #5A67D8;
-}
-
-.stories a {
-    color: #5A67D8;
-    text-decoration: none;
-}
-
-.stories a:hover {
-    color: #3B429F;
-}
-
-.article-body h3 {
-    font-size: 18px;
+footer p {
+    margin-left: 120px;
 }
 
