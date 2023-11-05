@@ -78,3 +78,35 @@ nav a {
     margin: 0 auto;
 }
 
+/*Test Covid 19*/
+
+.testing {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left; /* Align text to the left */
+}
+
+.testing-desciption {
+    max-width: 40%; /* Adjust as needed */
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.cta {
+    text-align: left; /* Align button to the right */
+}
+
+.cta .btn {
+    margin-left: 320px;
+    display: inline-block; /* Make the button a block element */
+}
+
+.testing .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: left; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: left; /* Center text */
+}
