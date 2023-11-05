@@ -110,3 +110,50 @@ nav a {
     align-items: center; /* Center vertically */
     text-align: left; /* Center text */
 }
+
+/*RECENT STORIES*/
+.stories .container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 300px;
+    align-items: left;
+    margin-top: 100px;
+}
+
+.stories h2 {
+    text-align: left;
+    padding-left: 10px;
+}
+
+article {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+article img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.article-body h3 {
+    margin-top: 0;
+    width: 430px;
+}
+
+.article-body {
+    flex: 1;
+    padding-left: 40px;
+    width: 600px;
+}
+
+.article-body p {
+    width: 560px;
+}
+
+.article-body a {
+    text-decoration: none;
+    color: #007bff;
+}
