@@ -1,11 +1,22 @@
-/* Add your CSS to this file */
-body {
-    margin: 0;
-    font-size: 16px;
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 330px;
+    padding-right: 250px;
 }
 
-.container {
-    margin: 0 auto;
-    max-width: 960px;
-    width: 100%;
+nav ul {
+    list-style: none;
+
+    display: flex;
 }
+
+nav li {
+    margin-left: 10px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
