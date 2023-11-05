@@ -44,5 +44,37 @@ nav a {
     margin: 0 auto; /* Center the container */
 }
 
+/*LEARN ABOUT*/
+.learn-about {
+    text-align: left;
+}
 
+.learn-about h2 {
+    padding-left: 30px;
+}
+
+.learn-about .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.learn-about .card {
+    text-align: left;
+}
+
+.learn-about .card img {
+    width: 300px;
+    height: 200px;
+}
+
+.learn-about .card-body {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.learn-about .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
 
