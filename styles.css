@@ -248,3 +248,20 @@ nav ul li a:hover {
     text-decoration: none;
 }
 
+.stories h2 {
+    color: #5A67D8;
+}
+
+.stories a {
+    color: #5A67D8;
+    text-decoration: none;
+}
+
+.stories a:hover {
+    color: #3B429F;
+}
+
+.article-body h3 {
+    font-size: 18px;
+}
+
