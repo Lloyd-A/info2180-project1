@@ -33,15 +33,15 @@ nav a {
 }
 
 .overview-hero-text {
-    margin-left: 20px; /* Add some space between the image and text */
+    margin-left: 20px;
 }
 
 .overview-hero .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 800px; /* Adjust this value to control the maximum width of the content */
-    margin: 0 auto; /* Center the container */
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 /*LEARN ABOUT*/
@@ -84,31 +84,31 @@ nav a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    text-align: left; /* Align text to the left */
+    text-align: left;
 }
 
 .testing-desciption {
-    max-width: 40%; /* Adjust as needed */
+    max-width: 40%;
     margin-top: 50px;
     margin-left: 100px;
 }
 
 .cta {
-    text-align: left; /* Align button to the right */
+    text-align: left;
 }
 
 .cta .btn {
     margin-left: 320px;
-    display: inline-block; /* Make the button a block element */
+    display: inline-block;
 }
 
 .testing .container {
     max-width: 1000px;
     margin: 0 auto;
     display: flex;
-    justify-content: left; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    text-align: left; /* Center text */
+    justify-content: left;
+    align-items: center;
+    text-align: left;
 }
 
 /*RECENT STORIES*/
@@ -156,4 +156,38 @@ article img {
 .article-body a {
     text-decoration: none;
     color: #007bff;
+}
+
+/*NewsLetter Section*/
+
+.newsletter {
+    text-align: center;
+}
+
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.newsletter p {
+    width: 410px;
+}
+
+.newsletter form {
+    overflow: hidden;
+}
+
+.newsletter .form-group input {
+    float: left;
+    width: 260px;
+    height: 40px;
+}
+
+.newsletter .btn {
+    float: left;
+    margin-left: 10px;
+    height: 45px;
+    width: 130px;
 }
